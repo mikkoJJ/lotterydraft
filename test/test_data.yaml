@@ -1,0 +1,18 @@
+players:
+  - name: Martti
+  - name: Tarja
+    bans:
+      - a
+      - b
+  - name: Sauli
+    bans:
+      - c
+      - d
+      - e
+
+choices:
+  - a
+  - b
+  - c
+  - d
+  - e

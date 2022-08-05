@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lotterydraft"
+version = "0.1.0"
+description = "A lottery draft script. Randomly allot predefined choices to predefined players."
+authors = ["Mikko Jakonen"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.9.1"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+black = "^22.6.0"
+pytest = "^7.1.2"
+
+[tool.poetry.scripts]
+lottery = "lotterydraft.main:entrypoint"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
